@@ -12,7 +12,8 @@ var articleone = {
     title: 'Article-one I Anil',
     heading: 'Article-one',
     date: 'aug 4,2017',
-    content: "True friendship is like sound health; the value of it is seldom known until it be lost."
+    content: `True friendship is like sound health;
+    the value of it is seldom known until it be lost.`
 };
 function createTemplate (data) {
     var title = data.title;
