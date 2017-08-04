@@ -14,7 +14,7 @@ var articleone= {
     date: 'aug 4,2017',
     content: "True friendship is like sound health; the value of it is seldom known until it be lost."
 };
-function createTemplate(data) {
+function createTemplate (data) {
     var title = data.title;
     var heading = data.heading;
     var date = data.date;
