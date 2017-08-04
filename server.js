@@ -8,7 +8,9 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
+app.net('/article-one',function(req,res){res.send('Article-one requested and serverd here')});
+app.net('/article-two',function(req,res){res.send('Article-two requested and serverd here')});
+app.net('/article-three',function(req,res){res.send('Article-three requested and serverd here')});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
