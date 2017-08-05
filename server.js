@@ -32,8 +32,6 @@ var htmlTemplate = `
             </a>
         </div>
         <h3>
-        hello
-        heloo
         </h3>
         <div>
             ${date}
