@@ -5,21 +5,14 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-    var articles={
     var articleone : {
-        title : "Article-one I Anil",
+    
+        title : 'Article-one I Anil',
         heading : 'Article-one',
         date :'aug 4,2017',
         content : `True friendship is like sound health;
         the value of it is seldom known until it be lost.`
-    },
-     var articletwo : {
-        title : "Article-two I Anil",
-        heading : 'Article-two',
-        date :'aug 4,2017',
-        content : `this is a second article n named aticle-two`
-     }
-};
+    };
         
         
 function createTemplate (data) {
