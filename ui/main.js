@@ -1,7 +1,8 @@
 console.log('Loaded!');
 
 var button=document.getElementById('counter');
-    button.onlcik = funtciom(){
+    button.onlcik = funtcion() {
+    
         
         var request = new XMLHttpRequest();
 
@@ -13,7 +14,8 @@ var button=document.getElementById('counter');
                         span.innerHTML = counter.toString();
                     }
                 }
-         };
+            
+        };
         request.open('GET','http://bavanlaanilkumar007.imad.hasura-app.io/',true);
         request.send(null);
-    }
+    };
